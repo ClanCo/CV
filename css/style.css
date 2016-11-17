@@ -1,0 +1,143 @@
+/* GENERAL */
+
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: bold;
+}
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+section
+{
+    padding: 45px 0 80px 0;
+}
+section .heading
+{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.green-divider
+{
+    width: 100px;
+    height: 2px;
+    background: #097F53;
+    margin: 0 auto;        
+}
+.white-divider
+{
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    margin: 0 auto;        
+}
+section .heading h2
+{
+    text-transform: uppercase;
+}
+/* ABOUT */
+
+#about
+{
+    padding-top: 100px;
+    background: #097F53;
+}
+.profil-picture
+{
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+#about .heading h1
+{
+    color: #fff;
+    text-transform: uppercase;
+}
+#about .heading h3
+{
+    color: #000;
+}
+.button1
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s; 
+}
+.button1:hover
+{
+    background: white;
+    color: #097F53;
+    text-decoration: none;
+}
+ /* SKILLS */
+
+#skills
+{
+    background: #fff;
+}
+#skills .heading h2
+{
+    color: #097F53;
+    text-transform: uppercase;
+}
+#skills .progress
+{
+    height: 100%;
+    margin: 30px 20px;
+    background: #ddd;
+}
+#skills .progress-bar
+{
+    background: #097F53;
+}
+#skills .progress h5
+{
+    text-shadow: 1px 1px 1px #000;
+}
+
+/* EXPERIENCE */
+
+#experience
+{
+  background: #097F53;   
+}
+#experience .heading h2
+{
+    color: #fff;
+}
+.timeline
+{
+    padding: 30px 10px;
+    position: relative;
+}
+.timeline:before
+{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 5px;
+    background-color: #333;
+    left: 50%;
+    margin-left: -2.5px;
+}
+.timeline > li /* > correspond au parent direct */
+{
+    margin-bottom: 20px;
+    position: relative;
+}
+.timeline > li: after
+{
+    clear:both
+}
