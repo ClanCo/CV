@@ -8,6 +8,10 @@ h1,h2,h3,h4,h5,h6
 {
     font-weight: bold;
 }
+ul,ol
+{
+list-style:none;
+}
 img
 {
     max-width: 100%;
@@ -193,5 +197,34 @@ section .heading h2
     position: relative;
     box-shadow: 0 1px 6px rgba(0,0,0, 0.175);
     background: #fff;
+}
+.timeline-panel:after
+{
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+
+.timeline-panel-container-inverted .timeline-panel:after
+{
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+.timeline-heading h3
+{
+    margin-top: 5px;
+    font-size: 20px;
     
+}
+.timeline-heading h4
+{
+    color: #097F53;
 }
