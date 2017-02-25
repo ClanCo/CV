@@ -45,6 +45,26 @@ section .heading h2
     text-transform: uppercase;
 }
 
+.button1
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s; 
+    background: transparent; 
+}
+.button1:hover
+{
+    background: white;
+    color: #097F53;
+    text-decoration: none;
+}
+
 /* MENU */
 .navbar
 {
@@ -107,24 +127,7 @@ section .heading h2
 {
     color: #000;
 }
-.button1
-{
-    font-weight: bold;
-    text-transform: uppercase;
-    color: white;
-    border: 1px solid white;
-    display: inline-block;
-    margin-top: 20px;
-    padding: 18px 50px;
-    border-radius: 3px;
-    transition: all 0.3s ease-in 0s; 
-}
-.button1:hover
-{
-    background: white;
-    color: #097F53;
-    text-decoration: none;
-}
+
  /* SKILLS */
 
 #skills
@@ -157,7 +160,7 @@ section .heading h2
 {
   background: #097F53;   
 }
-#experience .heading h2
+#experience .head-ing h2
 {
     color: #fff;
 }
@@ -406,7 +409,51 @@ footer h5
     font-weight: normal;
 }
 
+/* CONTACT */
 
+#contact
+{
+    background: #097F53;
+}
+
+#contact .heading h2
+{
+    color: white;
+}
+
+#contact-form
+{
+    font-size: 20px;
+    color: white;
+}
+
+.form-control
+{
+    height: 50px;
+    font-size: 18px;
+}
+
+.comments
+{
+    font-style: italic;
+    font-size: 18px;
+    color: #fff;
+    height: 25px;
+}
+
+#contact-form input[type=submit]
+{
+    margin: 40px auto 0px;
+    display: block;
+}
+
+.thank-you
+{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+}
 
 
 
